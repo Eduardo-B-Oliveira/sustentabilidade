@@ -1,0 +1,106 @@
+h1{
+    font-size: 30px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cbcbcb;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+nav img{
+    width: 6%;
+}
+nav input{
+    background-color: #e7e7e7;
+    border-radius: 8px;
+    border-style: none;
+    height: 30px;
+    width: 20%;
+}
+
+main{
+    display: flex;
+    height: 80vh;
+}
+aside{
+    background-color: #D9D9D9;
+    width: 20%;
+}
+section{
+    background-color: #F0F0F0;
+    width: 80%;
+}
+section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    margin: 70px;
+}
+#paragrafoArticle{
+    text-align: center;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#aside{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.listAside{
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    background-color: #cccccc;
+    border-style: none;
+}
+.listAside:hover{
+    cursor: pointer;
+    background-color: #c7c7c7;
+}
+.listAside:active{
+    cursor: pointer;
+    background-color: #b2b2b2;
+}
+
+.imgsRedes{
+    width: 60px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #106e209c;
+    height: 100px;
+}
+
+#ulAside{
+    list-style-type: none;
+    font-size: 30px;
+}
+
+#imgHome{
+    width: 43%;
+    height: 30%;
+}

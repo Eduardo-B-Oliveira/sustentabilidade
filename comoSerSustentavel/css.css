@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-color: #106e209c;
+}
+h1{
+    font-size: 32px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #cbcbcb;;
+}
+#setaDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #cccccc;
+    width: 4%;
+    height: 8vh;
+}
+#setaDiv:hover{
+    background-color: #bebebe;
+    cursor: pointer;
+}
+#setaDiv:active{
+    background-color: #b2b2b2;
+}
+#setaVoltar{
+    width: 80%;
+}
+
+main{
+    background-color: #F0F0F0;
+    padding-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+main section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
